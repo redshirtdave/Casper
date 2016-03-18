@@ -1,5 +1,4 @@
 # Casper
-Extension Attributes &amp; Scripts for Casper
 
 Some handy Extension Attributes for Casper to obtain version information about installed software.
 
