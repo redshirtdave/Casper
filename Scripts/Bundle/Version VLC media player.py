@@ -13,15 +13,15 @@ Returns 'N/A' if the product is not found.
 """
 
 # CFBundleIdentifier to search for [required]
-CFBundleIdentifier = 'com.macromedia.Flash Player.plugin'
+CFBundleIdentifier = 'org.videolan.vlc'
 # Key in plist to read version string from [required]
 Key = 'CFBundleShortVersionString'
 # Version to test for [required]
-Version = '21.0.0.182'
+Version = '2.2.2'
 # Range limit for bundle version [optional]
 # Range = ['MIN', 'MAX']
 # Default path for bundle [recommended]
-Default = '/Library/Internet Plug-Ins/Flash Player.plugin'
+Default = '/Applications/VLC.app'
 
 # Required modules
 from os import devnull

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extensionAttribute>
-<displayName>Version Adobe Flash Player</displayName>
+<displayName>Version VLC media player</displayName>
 <description>Determines if a product is at least a specified Version by searching for bundles with a specific CFBundleIdentifier and Version.</description>
 <dataType>string</dataType>
 <scriptContentsMac>#!/usr/bin/python&#13;
@@ -18,15 +18,15 @@ Returns 'N/A' if the product is not found.&#13;
 """&#13;
 &#13;
 # CFBundleIdentifier to search for [required]&#13;
-CFBundleIdentifier = 'com.macromedia.Flash Player.plugin'&#13;
+CFBundleIdentifier = 'org.videolan.vlc'&#13;
 # Key in plist to read version string from [required]&#13;
 Key = 'CFBundleShortVersionString'&#13;
 # Version to test for [required]&#13;
-Version = '21.0.0.182'&#13;
+Version = '2.2.2'&#13;
 # Range limit for bundle version [optional]&#13;
 # Range = ['MIN', 'MAX']&#13;
 # Default path for bundle [recommended]&#13;
-Default = '/Library/Internet Plug-Ins/Flash Player.plugin'&#13;
+Default = '/Applications/VLC.app'&#13;
 &#13;
 # Required modules&#13;
 from os import devnull&#13;
