@@ -7,7 +7,7 @@ Parameters=( "$@" )
 i=3
 while [ ${i} -lt ${#Parameters[@]} ]
 do
-    if [ -n "${{Parameters[i]}" ]
+    if [ -n "${Parameters[i]}" ]
     then
     	jamf policy -trigger "${Parameters[i]}"
     fi
