@@ -26,7 +26,7 @@ Version = '15.19.1'&#13;
 # Range limit for bundle version [optional]&#13;
 Range = ['15', '16']&#13;
 # Default path for bundle [recommended]&#13;
-Default = '/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app'&#13;
+Default = '/Applications/Microsoft Excel.app'&#13;
 &#13;
 # Required modules&#13;
 from os import devnull&#13;
