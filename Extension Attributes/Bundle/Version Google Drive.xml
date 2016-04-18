@@ -20,7 +20,7 @@ Returns 'N/A' if the product is not found.&#13;
 # CFBundleIdentifier to search for [required]&#13;
 CFBundleIdentifier = 'com.google.GoogleDrive'&#13;
 # Key in plist to read version string from [required]&#13;
-Key = 'CFBundleShortVersionString'&#13;
+Key = 'CFBundleVersion'&#13;
 # Version to test for [required]&#13;
 Version = '1.27.1227.2094'&#13;
 # Range limit for bundle version [optional]&#13;
